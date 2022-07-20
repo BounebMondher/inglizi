@@ -1,0 +1,48 @@
+.material-icons {
+    max-width: 24px!important;
+}
+
+.round-button{
+    border: 2px solid;
+    padding: 7px 20px 7px 12px;
+    border-radius: 18px;
+    font-weight: 600;
+}
+
+.round-button-filled{
+    border: 2px solid white;
+    padding: 6px 6px 6px 6px;
+    border-radius: 6px;
+    font-weight: 600;
+    background-color: white;
+    color: #9c27b0;
+
+}
+
+th{
+    font-weight: 600!important;
+}
+
+.material-icons-green
+{
+    color: #55b559;
+}
+.material-icons-red
+{
+    color: #cc6161;
+}
+
+.card-category b {
+    font-weight: 700;
+    font-size: large;
+}
+
+
+#textAnswersRow, #imageAnswersRow, #answerTypeRow
+{
+    transition: 1.3s all;
+}
+#textAnswersRow.hide, #imageAnswersRow.hide, #answerTypeRow.hide
+{
+    display:none;
+}
